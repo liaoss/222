@@ -1,0 +1,692 @@
+###############################################################################
+#
+# IAR ELF Linker V7.20.2.7424/W32 for ARM                 03/Aug/2017  12:15:12
+# Copyright 2007-2014 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\DELL\Desktop\Never Crazy Car
+#        8.2\Prj\IAR\DZ10_Debug\Exe\vcan_Kinetis.out
+#    Map file     =  
+#        C:\Users\DELL\Desktop\Never Crazy Car
+#        8.2\Prj\IAR\DZ10_Debug\List\vcan_Kinetis.map
+#    Command line =  
+#        "C:\Users\DELL\Desktop\Never Crazy Car
+#        8.2\Prj\IAR\DZ10_Debug\Obj\Dis.o" "C:\Users\DELL\Desktop\Never Crazy
+#        Car 8.2\Prj\IAR\DZ10_Debug\Obj\diskio.o" "C:\Users\DELL\Desktop\Never
+#        Crazy Car 8.2\Prj\IAR\DZ10_Debug\Obj\ff.o"
+#        "C:\Users\DELL\Desktop\Never Crazy Car
+#        8.2\Prj\IAR\DZ10_Debug\Obj\FuzzySet_Casu.o"
+#        "C:\Users\DELL\Desktop\Never Crazy Car
+#        8.2\Prj\IAR\DZ10_Debug\Obj\FuzzySet_Speed.o"
+#        "C:\Users\DELL\Desktop\Never Crazy Car
+#        8.2\Prj\IAR\DZ10_Debug\Obj\io.o" "C:\Users\DELL\Desktop\Never Crazy
+#        Car 8.2\Prj\IAR\DZ10_Debug\Obj\Key.o" "C:\Users\DELL\Desktop\Never
+#        Crazy Car 8.2\Prj\IAR\DZ10_Debug\Obj\lcd.o"
+#        "C:\Users\DELL\Desktop\Never Crazy Car
+#        8.2\Prj\IAR\DZ10_Debug\Obj\main.o" "C:\Users\DELL\Desktop\Never Crazy
+#        Car 8.2\Prj\IAR\DZ10_Debug\Obj\misc.o" "C:\Users\DELL\Desktop\Never
+#        Crazy Car 8.2\Prj\IAR\DZ10_Debug\Obj\MK60_adc.o"
+#        "C:\Users\DELL\Desktop\Never Crazy Car
+#        8.2\Prj\IAR\DZ10_Debug\Obj\MK60_conf.o" "C:\Users\DELL\Desktop\Never
+#        Crazy Car 8.2\Prj\IAR\DZ10_Debug\Obj\MK60_dma.o"
+#        "C:\Users\DELL\Desktop\Never Crazy Car
+#        8.2\Prj\IAR\DZ10_Debug\Obj\MK60_DWT.o" "C:\Users\DELL\Desktop\Never
+#        Crazy Car 8.2\Prj\IAR\DZ10_Debug\Obj\MK60_flash.o"
+#        "C:\Users\DELL\Desktop\Never Crazy Car
+#        8.2\Prj\IAR\DZ10_Debug\Obj\MK60_ftm.o" "C:\Users\DELL\Desktop\Never
+#        Crazy Car 8.2\Prj\IAR\DZ10_Debug\Obj\MK60_gpio.o"
+#        "C:\Users\DELL\Desktop\Never Crazy Car
+#        8.2\Prj\IAR\DZ10_Debug\Obj\MK60_i2c.o" "C:\Users\DELL\Desktop\Never
+#        Crazy Car 8.2\Prj\IAR\DZ10_Debug\Obj\MK60_it.o"
+#        "C:\Users\DELL\Desktop\Never Crazy Car
+#        8.2\Prj\IAR\DZ10_Debug\Obj\MK60_lptmr.o" "C:\Users\DELL\Desktop\Never
+#        Crazy Car 8.2\Prj\IAR\DZ10_Debug\Obj\MK60_mcg.o"
+#        "C:\Users\DELL\Desktop\Never Crazy Car
+#        8.2\Prj\IAR\DZ10_Debug\Obj\MK60_PIT.o" "C:\Users\DELL\Desktop\Never
+#        Crazy Car 8.2\Prj\IAR\DZ10_Debug\Obj\MK60_port.o"
+#        "C:\Users\DELL\Desktop\Never Crazy Car
+#        8.2\Prj\IAR\DZ10_Debug\Obj\MK60_sdhc.o" "C:\Users\DELL\Desktop\Never
+#        Crazy Car 8.2\Prj\IAR\DZ10_Debug\Obj\MK60_spi.o"
+#        "C:\Users\DELL\Desktop\Never Crazy Car
+#        8.2\Prj\IAR\DZ10_Debug\Obj\MK60_SysTick.o"
+#        "C:\Users\DELL\Desktop\Never Crazy Car
+#        8.2\Prj\IAR\DZ10_Debug\Obj\MK60_uart.o" "C:\Users\DELL\Desktop\Never
+#        Crazy Car 8.2\Prj\IAR\DZ10_Debug\Obj\MK60_wdog.o"
+#        "C:\Users\DELL\Desktop\Never Crazy Car
+#        8.2\Prj\IAR\DZ10_Debug\Obj\mm.o" "C:\Users\DELL\Desktop\Never Crazy
+#        Car 8.2\Prj\IAR\DZ10_Debug\Obj\Motor.o" "C:\Users\DELL\Desktop\Never
+#        Crazy Car 8.2\Prj\IAR\DZ10_Debug\Obj\OLED.o"
+#        "C:\Users\DELL\Desktop\Never Crazy Car
+#        8.2\Prj\IAR\DZ10_Debug\Obj\overtake.o" "C:\Users\DELL\Desktop\Never
+#        Crazy Car 8.2\Prj\IAR\DZ10_Debug\Obj\printf.o"
+#        "C:\Users\DELL\Desktop\Never Crazy Car
+#        8.2\Prj\IAR\DZ10_Debug\Obj\Screen.o" "C:\Users\DELL\Desktop\Never
+#        Crazy Car 8.2\Prj\IAR\DZ10_Debug\Obj\SERVO_MOTOR.o"
+#        "C:\Users\DELL\Desktop\Never Crazy Car
+#        8.2\Prj\IAR\DZ10_Debug\Obj\startup_MK60DZ10.o"
+#        "C:\Users\DELL\Desktop\Never Crazy Car
+#        8.2\Prj\IAR\DZ10_Debug\Obj\System.o" "C:\Users\DELL\Desktop\Never
+#        Crazy Car 8.2\Prj\IAR\DZ10_Debug\Obj\system_MK60DZ10.o"
+#        "C:\Users\DELL\Desktop\Never Crazy Car
+#        8.2\Prj\IAR\DZ10_Debug\Obj\VCAN_camera.o" "C:\Users\DELL\Desktop\Never
+#        Crazy Car 8.2\Prj\IAR\DZ10_Debug\Obj\VCAN_computer.o"
+#        "C:\Users\DELL\Desktop\Never Crazy Car
+#        8.2\Prj\IAR\DZ10_Debug\Obj\VCAN_key.o" "C:\Users\DELL\Desktop\Never
+#        Crazy Car 8.2\Prj\IAR\DZ10_Debug\Obj\VCAN_LED.o"
+#        "C:\Users\DELL\Desktop\Never Crazy Car
+#        8.2\Prj\IAR\DZ10_Debug\Obj\VCAN_NRF24L0.o"
+#        "C:\Users\DELL\Desktop\Never Crazy Car
+#        8.2\Prj\IAR\DZ10_Debug\Obj\VCAN_OV7725_Eagle.o"
+#        "C:\Users\DELL\Desktop\Never Crazy Car
+#        8.2\Prj\IAR\DZ10_Debug\Obj\VCAN_SCCB.o" "C:\Users\DELL\Desktop\Never
+#        Crazy Car 8.2\Prj\IAR\DZ10_Debug\Obj\vectors.o" --redirect
+#        _Printf=_PrintfLargeNoMb -o "C:\Users\DELL\Desktop\Never Crazy Car
+#        8.2\Prj\IAR\DZ10_Debug\Exe\vcan_Kinetis.out" --map
+#        "C:\Users\DELL\Desktop\Never Crazy Car
+#        8.2\Prj\IAR\DZ10_Debug\List\vcan_Kinetis.map" --config
+#        "C:\Users\DELL\Desktop\Never Crazy Car 8.2\Prj\IAR\config
+#        files\vcan_ROM_K60N512.icf" "C:\Users\DELL\Desktop\Never Crazy Car
+#        8.2\Prj\IAR\..\..\Lib\CMSIS\iar_cortexM4l_math.a" --entry
+#        __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"A2":  place at 0x00000410 { ro section .noinit };
+"P1":  place in [from 0x00000000 to 0x00080000] { ro, block CodeRelocate };
+"P2":  place in [from 0x1fff0410 to 0x20010000] {
+          rw, block CodeRelocateRam, block CSTACK, block HEAP };
+
+  Section              Kind        Address     Size  Object
+  -------              ----        -------     ----  ------
+"A1":                                         0x410
+  .intvec              const    0x00000000    0x410  vectors.o [1]
+                              - 0x00000410    0x410
+
+"P1", part 1 of 2:                              0x0
+  .rodata              const    0x00000410      0x0  zero_init3.o [5]
+
+"A2":                                           0x8
+  .noinit              ro code  0x00000410      0x8  startup_MK60DZ10.o [1]
+                              - 0x00000418      0x8
+
+"P1", part 2 of 2:                          0x12f44
+  .data_init                    0x00000418   0x7da8  <Block>
+    Initializer bytes  ro data  0x00000418   0x7da8  <for .data-1>
+  .text                ro code  0x000081c0   0x32dc  VCAN_camera.o [1]
+  .text                ro code  0x0000b49c     0x2c  I32ToDbl.o [4]
+  .text                ro code  0x0000b4c8    0x1a2  DblMul.o [4]
+  .text                ro code  0x0000b66a     0x22  zero_init3.o [5]
+  .text                ro code  0x0000b68c     0x90  DblToFlt.o [4]
+  .text                ro code  0x0000b71c     0x44  FltToS32.o [4]
+  .text                ro code  0x0000b760     0x32  I32ToFlt.o [4]
+  .text                ro code  0x0000b794     0xd8  FltMul.o [4]
+  .text                ro code  0x0000b86c     0x84  FltAdd.o [4]
+  .text                ro code  0x0000b8f0     0xfc  FltDiv.o [4]
+  .text                ro code  0x0000b9ec     0xe6  FltSub.o [4]
+  .text                ro code  0x0000bad4     0x24  FltCmpGe.o [4]
+  .text                ro code  0x0000baf8     0x24  FltCmpLe.o [4]
+  .text                ro code  0x0000bb1c      0x6  ABImemclr4.o [5]
+  .text                ro code  0x0000bb24     0x76  ABImemcpy_unaligned.o [5]
+  .text                ro code  0x0000bb9c    0x246  DblDiv.o [4]
+  .text                ro code  0x0000bde4     0x4e  FltToDbl.o [4]
+  .text                ro code  0x0000be34     0x2e  DblCmpGe.o [4]
+  .text                ro code  0x0000be64     0x2e  DblCmpLe.o [4]
+  .text                ro code  0x0000be94     0x1c  FltCmpEq.o [4]
+  .text                ro code  0x0000beb0     0x32  ABImemset48.o [5]
+  .text                ro code  0x0000bee4   0x1d52  lcd.o [1]
+  .text                ro code  0x0000dc38    0x138  MK60_gpio.o [1]
+  .text                ro code  0x0000dd70     0x84  MK60_SysTick.o [1]
+  .text                ro code  0x0000ddf4     0x7c  MK60_port.o [1]
+  .text                ro code  0x0000de70     0xf0  MK60_conf.o [1]
+  .text                ro code  0x0000df60     0x6c  VCAN_LED.o [1]
+  .text                ro code  0x0000dfcc    0x546  printf.o [1]
+  .text                ro code  0x0000e514    0x290  MK60_ftm.o [1]
+  .text                ro code  0x0000e7a4     0x20  DblCmpEq.o [4]
+  .text                ro code  0x0000e7c4     0xb8  modf.o [4]
+  .text                ro code  0x0000e87c     0xe8  DblAdd.o [4]
+  .text                ro code  0x0000e964     0x4c  DblToI32.o [4]
+  .text                ro code  0x0000e9b0      0x8  io.o [1]
+  .text                ro code  0x0000e9b8     0x36  strlen.o [5]
+  .text                ro code  0x0000e9f0    0x180  DblSub.o [4]
+  .text                ro code  0x0000eb70    0x1dc  MK60_uart.o [1]
+  .text                ro code  0x0000ed4c   0x13f0  VCAN_SCCB.o [1]
+  .text                ro code  0x0001013c    0x89c  OLED.o [1]
+  .text                ro code  0x000109d8    0x764  FuzzySet_Speed.o [1]
+  .text                ro code  0x0001113c    0x650  Motor.o [1]
+  .text                ro code  0x0001178c    0x314  FuzzySet_Casu.o [1]
+  .text                ro code  0x00011aa0    0x2ac  MK60_dma.o [1]
+  .text                ro code  0x00011d4c    0x454  MK60_it.o [1]
+  .text                ro code  0x000121a0    0x258  VCAN_OV7725_Eagle.o [1]
+  .text                ro code  0x000123f8    0x2f8  System.o [1]
+  .text                ro code  0x000126f0     0x80  Key.o [1]
+  .text                ro code  0x00012770     0x80  misc.o [1]
+  .text                ro code  0x000127f0     0x88  SERVO_MOTOR.o [1]
+  .text                ro code  0x00012878    0x1ac  MK60_adc.o [1]
+  .text                ro code  0x00012a24     0x8c  MK60_PIT.o [1]
+  .text                ro code  0x00012ab0    0x1f8  main.o [1]
+  .text                ro code  0x00012ca8     0x84  mm.o [1]
+  .text                ro code  0x00012d2c     0x90  VCAN_computer.o [1]
+  .text                ro code  0x00012dbc    0x1b4  Screen.o [1]
+  Veneer               ro code  0x00012f70      0x8  - Linker created -
+  .text                ro code  0x00012f78    0x1d4  MK60_mcg.o [1]
+  .text                ro code  0x0001314c     0xc0  system_MK60DZ10.o [1]
+  .text                ro code  0x0001320c     0x2c  MK60_wdog.o [1]
+  .text                ro code  0x00013238      0x6  ABImemclr.o [5]
+  .text                ro code  0x00013240     0x5e  ABImemset.o [5]
+  CodeRelocate                  0x000132a0     0x3c  <Block>
+    Initializer bytes  ro data  0x000132a0     0x3c  <for CodeRelocateRam-1>
+  .text                ro code  0x000132dc     0x28  data_init.o [5]
+  .iar.init_table      const    0x00013304     0x10  - Linker created -
+  .text                ro code  0x00013314     0x1a  cmain.o [5]
+  .text                ro code  0x0001332e      0x4  low_level_init.o [3]
+  .text                ro code  0x00013332      0x4  exit.o [3]
+  .text                ro code  0x00013338      0xa  cexit.o [5]
+  .text                ro code  0x00013344      0xc  XXexit.o [5]
+  .text                ro code  0x00013350      0xc  cstartup_M.o [5]
+                              - 0x0001335c  0x12f44
+
+"P2":                                        0x9801
+  .data                         0x1fff0410   0x7da8  <Block>
+    .data-1                     0x1fff0410   0x7da8  <Init block>
+      .data            inited   0x1fff0410    0x260  FuzzySet_Casu.o [1]
+      .data            inited   0x1fff0670     0x1c  FuzzySet_Casu.o [1]
+      .data            inited   0x1fff068c     0x34  FuzzySet_Casu.o [1]
+      .data            inited   0x1fff06c0     0x34  FuzzySet_Casu.o [1]
+      .data            inited   0x1fff06f4    0x2e4  FuzzySet_Speed.o [1]
+      .data            inited   0x1fff09d8     0x10  FuzzySet_Speed.o [1]
+      .data            inited   0x1fff09e8     0x10  FuzzySet_Speed.o [1]
+      .data            inited   0x1fff09f8     0x10  FuzzySet_Speed.o [1]
+      .data            inited   0x1fff0a08     0x10  FuzzySet_Speed.o [1]
+      .data            inited   0x1fff0a18     0x10  FuzzySet_Speed.o [1]
+      .data            inited   0x1fff0a28     0x10  FuzzySet_Speed.o [1]
+      .data            inited   0x1fff0a38     0x10  FuzzySet_Speed.o [1]
+      .data            inited   0x1fff0a48     0x10  FuzzySet_Speed.o [1]
+      .data            inited   0x1fff0a58     0x10  FuzzySet_Speed.o [1]
+      .data            inited   0x1fff0a68     0x10  FuzzySet_Speed.o [1]
+      .data            inited   0x1fff0a78      0x4  FuzzySet_Speed.o [1]
+      .data            inited   0x1fff0a7c      0x4  FuzzySet_Speed.o [1]
+      .data            inited   0x1fff0a80      0x1  Key.o [1]
+      .data            inited   0x1fff0a84    0x5f4  lcd.o [1]
+      .data            inited   0x1fff1078      0x1  main.o [1]
+      .data            inited   0x1fff107c   0x6730  main.o [1]
+      .data            inited   0x1fff77ac      0x2  main.o [1]
+      .data            inited   0x1fff77ae      0x1  main.o [1]
+      .data            inited   0x1fff77af      0x1  main.o [1]
+      .data            inited   0x1fff77b0      0x4  main.o [1]
+      .data            inited   0x1fff77b4      0x4  main.o [1]
+      .data            inited   0x1fff77b8      0x8  MK60_adc.o [1]
+      .data            inited   0x1fff77c0    0x708  MK60_conf.o [1]
+      .data            inited   0x1fff7ec8     0x18  MK60_ftm.o [1]
+      .data            inited   0x1fff7ee0     0x14  MK60_gpio.o [1]
+      .data            inited   0x1fff7ef4     0x48  MK60_mcg.o [1]
+      .data            inited   0x1fff7f3c     0x14  MK60_port.o [1]
+      .data            inited   0x1fff7f50     0x18  MK60_uart.o [1]
+      .data            inited   0x1fff7f68    0x1e0  VCAN_camera.o [1]
+      .data            inited   0x1fff8148      0x4  VCAN_LED.o [1]
+      .data            inited   0x1fff814c     0x6c  VCAN_OV7725_Eagle.o [1]
+  CodeRelocateRam               0x1fff81b8     0x3c  <Block>
+    CodeRelocateRam-1           0x1fff81b8     0x3c  <Init block>
+      .textrw          inited   0x1fff81b8     0x3c  MK60_mcg.o [1]
+  .bss                          0x1fff81f4   0x1a1d  <Block>
+    .bss               zero     0x1fff81f4     0xf0  main.o [1]
+    .bss               zero     0x1fff82e4     0xf0  main.o [1]
+    .bss               zero     0x1fff83d4     0xf0  main.o [1]
+    .bss               zero     0x1fff84c4     0x18  main.o [1]
+    .bss               zero     0x1fff84dc      0x4  main.o [1]
+    .bss               zero     0x1fff84e0      0x4  main.o [1]
+    .bss               zero     0x1fff84e4     0x40  MK60_dma.o [1]
+    .bss               zero     0x1fff8524     0x38  Motor.o [1]
+    .bss               zero     0x1fff855c     0x18  SERVO_MOTOR.o [1]
+    .bss               zero     0x1fff8574      0xc  system_MK60DZ10.o [1]
+    .bss               zero     0x1fff8580    0xf04  VCAN_camera.o [1]
+    .bss               zero     0x1fff9484    0x780  VCAN_camera.o [1]
+    .bss               zero     0x1fff9c04      0x2  main.o [1]
+    .bss               zero     0x1fff9c06      0x2  main.o [1]
+    .bss               zero     0x1fff9c08      0x1  main.o [1]
+    .bss               zero     0x1fff9c09      0x1  main.o [1]
+    .bss               zero     0x1fff9c0a      0x1  main.o [1]
+    .bss               zero     0x1fff9c0b      0x1  main.o [1]
+    .bss               zero     0x1fff9c0c      0x1  main.o [1]
+    .bss               zero     0x1fff9c0d      0x1  main.o [1]
+    .bss               zero     0x1fff9c0e      0x1  main.o [1]
+    .bss               zero     0x1fff9c0f      0x1  main.o [1]
+    .bss               zero     0x1fff9c10      0x1  main.o [1]
+                              - 0x1fff9c11   0x9801
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x1a1d:
+          0x1fff81f4  0x1a1d
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  rw code  ro data  rw data
+    ------                 -------  -------  -------  -------
+C:\Users\DELL\Desktop\Never Crazy Car 8.2\Prj\IAR\DZ10_Debug\Obj: [1]
+    FuzzySet_Casu.o            788               740      740
+    FuzzySet_Speed.o         1 892               908      908
+    Key.o                      128                 1        1
+    MK60_PIT.o                 140
+    MK60_SysTick.o             132
+    MK60_adc.o                 428                 8        8
+    MK60_conf.o                240             1 800    1 800
+    MK60_dma.o                 684                         64
+    MK60_ftm.o                 656                24       24
+    MK60_gpio.o                312                20       20
+    MK60_it.o                1 108
+    MK60_mcg.o                 468       60      132       72
+    MK60_port.o                124                20       20
+    MK60_uart.o                476                24       24
+    MK60_wdog.o                 44
+    Motor.o                  1 616                         56
+    OLED.o                   2 204
+    SERVO_MOTOR.o              136                         24
+    Screen.o                   436
+    System.o                   760
+    VCAN_LED.o                 108                 4        4
+    VCAN_OV7725_Eagle.o        600               108      108
+    VCAN_SCCB.o              5 104
+    VCAN_camera.o           13 020               480    6 244
+    VCAN_computer.o            144
+    io.o                         8
+    lcd.o                    7 506             1 527    1 524
+    main.o                     504            26 432   27 194
+    misc.o                     128
+    mm.o                       132
+    printf.o                 1 350
+    startup_MK60DZ10.o           8
+    system_MK60DZ10.o          192                         12
+    vectors.o                                  1 040
+    ---------------------------------------------------------
+    Total:                  41 576       60   33 268   38 847
+
+command line: [2]
+    ---------------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    exit.o                       4
+    low_level_init.o             4
+    ---------------------------------------------------------
+    Total:                       8
+
+m7M_tl.a: [4]
+    DblAdd.o                   232
+    DblCmpEq.o                  32
+    DblCmpGe.o                  46
+    DblCmpLe.o                  46
+    DblDiv.o                   582
+    DblMul.o                   418
+    DblSub.o                   384
+    DblToFlt.o                 144
+    DblToI32.o                  76
+    FltAdd.o                   132
+    FltCmpEq.o                  28
+    FltCmpGe.o                  36
+    FltCmpLe.o                  36
+    FltDiv.o                   252
+    FltMul.o                   216
+    FltSub.o                   230
+    FltToDbl.o                  78
+    FltToS32.o                  68
+    I32ToDbl.o                  44
+    I32ToFlt.o                  50
+    modf.o                     184
+    ---------------------------------------------------------
+    Total:                   3 314
+
+rt7M_tl.a: [5]
+    ABImemclr.o                  6
+    ABImemclr4.o                 6
+    ABImemcpy_unaligned.o      118
+    ABImemset.o                 94
+    ABImemset48.o               50
+    XXexit.o                    12
+    cexit.o                     10
+    cmain.o                     26
+    cstartup_M.o                12
+    data_init.o                 40
+    strlen.o                    54
+    zero_init3.o                34
+    ---------------------------------------------------------
+    Total:                     462
+
+    Gaps                        30                          6
+    Linker created               8                16
+-------------------------------------------------------------
+    Grand Total:            45 398       60   33 284   38 853
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.bss$$Base              0x1fff81f4           --   Gb  - Linker created -
+.bss$$Limit             0x1fff9c11           --   Gb  - Linker created -
+.data$$Base             0x1fff0410           --   Gb  - Linker created -
+.data$$Limit            0x1fff81b8           --   Gb  - Linker created -
+.data_init$$Base        0x00000418           --   Gb  - Linker created -
+.data_init$$Limit       0x000081c0           --   Gb  - Linker created -
+?main                   0x00013315          Code  Gb  cmain.o [5]
+ADCN                    0x1fff77b8     0x8  Data  Gb  MK60_adc.o [1]
+ASSERT_FAILED_STR       0x0000df3c    0x24  Data  Gb  MK60_conf.o [1]
+AcquireInflecPoint      0x000091c5    0x86  Code  Gb  VCAN_camera.o [1]
+AcquireJumpPoint        0x0000924b   0x19c  Code  Gb  VCAN_camera.o [1]
+AcquireRealBorder       0x00008e51   0x30e  Code  Gb  VCAN_camera.o [1]
+Address_set             0x0000c975   0x744  Code  Gb  lcd.o [1]
+BACK_COLOR              0x1fff0a84     0x2  Data  Gb  lcd.o [1]
+BM_init                 0x00012637    0x8a  Code  Gb  System.o [1]
+BM_value                0x00012ab1    0xbc  Code  Gb  main.o [1]
+Battery_voltage         0x0001249f   0x126  Code  Gb  System.o [1]
+Car_Run_flag            0x1fff9c0b     0x1  Data  Gb  main.o [1]
+Car_Stop_flag           0x1fff9c0a     0x1  Data  Gb  main.o [1]
+CircleJudge             0x0000953d   0x35c  Code  Gb  VCAN_camera.o [1]
+Circle_flag_handle      0x0000b1f1   0x292  Code  Gb  VCAN_camera.o [1]
+Circle_handle           0x0000a1d9  0x100e  Code  Gb  VCAN_camera.o [1]
+CodeRelocate$$Base      0x000132a0           --   Gb  - Linker created -
+CodeRelocate$$Limit     0x000132dc           --   Gb  - Linker created -
+CodeRelocateRam$$Base   0x1fff81b8           --   Gb  - Linker created -
+CodeRelocateRam$$Limit  0x1fff81f4           --   Gb  - Linker created -
+Correction_array        0x1fff7f68   0x1e0  Data  Gb  VCAN_camera.o [1]
+Current_Turn_state      0x1fff9c10     0x1  Data  Gb  main.o [1]
+DFF                     0x1fff0704    0x10  Data  Gb  FuzzySet_Speed.o [1]
+DMA0_IRQHandler         0x00011d5d     0x4  Code  Gb  MK60_it.o [1]
+DMA_Speed_get           0x0001154b    0x62  Code  Gb  Motor.o [1]
+DMA_count_Init          0x00011bd9    0xe0  Code  Gb  MK60_dma.o [1]
+DMA_count_get           0x00011cb9    0x16  Code  Gb  MK60_dma.o [1]
+DMA_count_reset         0x00011ccf    0x14  Code  Gb  MK60_dma.o [1]
+DYY                     0x1fff042c    0x10  Data  Gb  FuzzySet_Casu.o [1]
+EFF                     0x1fff0714    0x10  Data  Gb  FuzzySet_Speed.o [1]
+Edge_Tracking           0x00008af5    0xc8  Code  Gb  VCAN_camera.o [1]
+ExtendTheTrack          0x00009a75    0xb8  Code  Gb  VCAN_camera.o [1]
+F6x8                    0x000103f8   0x228  Data  Gb  OLED.o [1]
+FTMN                    0x1fff7ec8     0xc  Data  Gb  MK60_ftm.o [1]
+FTM_port_mux            0x0000e515    0xb2  Code  Lc  MK60_ftm.o [1]
+FuzzySet_Casu           0x0001178d   0x2fe  Code  Gb  FuzzySet_Casu.o [1]
+FuzzySet_Speed          0x000109d9   0x62e  Code  Gb  FuzzySet_Speed.o [1]
+GPIOX                   0x1fff7ee0    0x14  Data  Gb  MK60_gpio.o [1]
+Get_Edge                0x00008249   0x7c8  Code  Gb  VCAN_camera.o [1]
+HighSpeed_KI            0x1fff77b4     0x4  Data  Gb  main.o [1]
+HighSpeed_KP            0x1fff77b0     0x4  Data  Gb  main.o [1]
+KeyValue                0x1fff0a80     0x1  Data  Gb  Key.o [1]
+Key_Test                0x000126f1    0x80  Code  Gb  Key.o [1]
+Key_init                0x000125e5    0x52  Code  Gb  System.o [1]
+LCD_Clear               0x0000d0b9    0x60  Code  Gb  lcd.o [1]
+LCD_ShowChar            0x0000d119   0x152  Code  Gb  lcd.o [1]
+LCD_ShowNum             0x0000d271   0x986  Code  Gb  lcd.o [1]
+LCD_ShowString          0x0000dc01    0x36  Code  Gb  lcd.o [1]
+LCD_WriteCommand        0x0000bee5    0xca  Code  Gb  lcd.o [1]
+LCD_Write_Data          0x0000bfaf    0xcc  Code  Gb  lcd.o [1]
+LCD_Write_Data2         0x0000c07b   0x1da  Code  Gb  lcd.o [1]
+LCD_img                 0x00012e39    0xf4  Code  Gb  Screen.o [1]
+LED_CLS                 0x000101c5    0x34  Code  Gb  OLED.o [1]
+LED_P6x8Char            0x00010313    0x64  Code  Gb  OLED.o [1]
+LED_P6x8Str             0x00010377    0x80  Code  Gb  OLED.o [1]
+LED_PTxn                0x1fff8148     0x4  Data  Gb  VCAN_LED.o [1]
+LED_PrintValueF         0x00010801   0x1d2  Code  Gb  OLED.o [1]
+LED_PrintValueFP        0x000106b1   0x14e  Code  Gb  OLED.o [1]
+LED_PrintValueI4        0x00010621    0x90  Code  Gb  OLED.o [1]
+LED_WrCmd               0x00010181    0x44  Code  Gb  OLED.o [1]
+LED_WrDat               0x0001013d    0x44  Code  Gb  OLED.o [1]
+Last_Prospect_See       0x1fff107e     0x1  Data  Gb  main.o [1]
+Lline                   0x1fff81f4    0xf0  Data  Gb  main.o [1]
+Mline                   0x1fff83d4    0xf0  Data  Gb  main.o [1]
+Motor_init              0x000114e1    0x6a  Code  Gb  Motor.o [1]
+OLED_dis_flag           0x1fff9c0e     0x1  Data  Gb  main.o [1]
+OLED_init               0x000101f9   0x11a  Code  Gb  OLED.o [1]
+ObliqueCrossJudge       0x00009415   0x112  Code  Gb  VCAN_camera.o [1]
+Obstacle_flag           0x1fff9c09     0x1  Data  Gb  main.o [1]
+Obstacle_handle         0x00009e69   0x33a  Code  Gb  VCAN_camera.o [1]
+Obstacle_offset         0x1fff77ad     0x1  Data  Gb  main.o [1]
+PFF                     0x1fff06f4    0x10  Data  Gb  FuzzySet_Speed.o [1]
+PIT0_IRQHandler         0x00011d4d    0x10  Code  Gb  MK60_it.o [1]
+POINT_COLOR             0x1fff0a86     0x2  Data  Gb  lcd.o [1]
+PORTC_IRQHandler        0x00011d61   0x358  Code  Gb  MK60_it.o [1]
+PORTX                   0x1fff7f3c    0x14  Data  Gb  MK60_port.o [1]
+PYY                     0x1fff0410    0x1c  Data  Gb  FuzzySet_Casu.o [1]
+Prospect_See            0x1fff107d     0x1  Data  Gb  main.o [1]
+Region$$Table$$Base     0x00013304           --   Gb  - Linker created -
+Region$$Table$$Limit    0x00013314           --   Gb  - Linker created -
+Reset_Handler           0x00000411          Code  Gb  startup_MK60DZ10.o [1]
+Rline                   0x1fff82e4    0xf0  Data  Gb  main.o [1]
+SCCB_GPIO_init          0x0000ed4d    0x2e  Code  Gb  VCAN_SCCB.o [1]
+SCCB_ReadByte           0x0000f4ad    0x26  Code  Gb  VCAN_SCCB.o [1]
+SCCB_ReadByte_one       0x0000f4d5   0xc62  Code  Lc  VCAN_SCCB.o [1]
+SCCB_WriteByte          0x0000ed7d   0x72a  Code  Gb  VCAN_SCCB.o [1]
+ScratchObstacleJudge    0x00009989    0xe8  Code  Gb  VCAN_camera.o [1]
+Scratch_flag            0x1fff9c08     0x1  Data  Gb  main.o [1]
+ScreenShow              0x00012dbd    0x7c  Code  Gb  Screen.o [1]
+Servo_Motor_init        0x000127f1     0xe  Code  Gb  SERVO_MOTOR.o [1]
+Speed_KI                0x1fff1088     0x4  Data  Gb  main.o [1]
+Speed_KP                0x1fff1084     0x4  Data  Gb  main.o [1]
+StartPoint              0x1fff1078     0x1  Data  Gb  main.o [1]
+System_init             0x000123f9    0xa6  Code  Gb  System.o [1]
+TFTShow_img_flag        0x1fff1080     0x1  Data  Gb  main.o [1]
+Texting_state           0x1fff77af     0x1  Data  Gb  main.o [1]
+Tft_init                0x0000c255   0x718  Code  Gb  lcd.o [1]
+TrackFilter             0x0000916d    0x56  Code  Gb  VCAN_camera.o [1]
+Track_Scanning          0x00008bbd   0x264  Code  Gb  VCAN_camera.o [1]
+Track_complexity        0x1fff9c04     0x2  Data  Gb  main.o [1]
+Turn_state              0x1fff77ae     0x1  Data  Gb  main.o [1]
+UARTN                   0x1fff7f50    0x18  Data  Gb  MK60_uart.o [1]
+UFF                     0x1fff09d4     0x4  Data  Gb  FuzzySet_Speed.o [1]
+UFF0_HX                 0x1fff0a68    0x10  Data  Gb  FuzzySet_Speed.o [1]
+UFF0_NORMAL             0x1fff0a18    0x10  Data  Gb  FuzzySet_Speed.o [1]
+UFF1_HX                 0x1fff0a28    0x10  Data  Gb  FuzzySet_Speed.o [1]
+UFF1_NORMAL             0x1fff09d8    0x10  Data  Gb  FuzzySet_Speed.o [1]
+UFF2_HX                 0x1fff0a38    0x10  Data  Gb  FuzzySet_Speed.o [1]
+UFF2_NORMAL             0x1fff09e8    0x10  Data  Gb  FuzzySet_Speed.o [1]
+UFF3_HX                 0x1fff0a48    0x10  Data  Gb  FuzzySet_Speed.o [1]
+UFF3_NORMAL             0x1fff09f8    0x10  Data  Gb  FuzzySet_Speed.o [1]
+UFF4_HX                 0x1fff0a58    0x10  Data  Gb  FuzzySet_Speed.o [1]
+UFF4_NORMAL             0x1fff0a08    0x10  Data  Gb  FuzzySet_Speed.o [1]
+UFF_HX                  0x1fff0a7c     0x4  Data  Gb  FuzzySet_Speed.o [1]
+UFF_NORMAL              0x1fff0a78     0x4  Data  Gb  FuzzySet_Speed.o [1]
+UYY                     0x1fff0664     0x4  Data  Gb  FuzzySet_Casu.o [1]
+UYY1                    0x1fff0670    0x1c  Data  Gb  FuzzySet_Casu.o [1]
+UYY_D                   0x1fff066c     0x4  Data  Gb  FuzzySet_Casu.o [1]
+UYY_D1                  0x1fff06c0    0x34  Data  Gb  FuzzySet_Casu.o [1]
+UYY_P                   0x1fff0668     0x4  Data  Gb  FuzzySet_Casu.o [1]
+UYY_P1                  0x1fff068c    0x34  Data  Gb  FuzzySet_Casu.o [1]
+__BOOT_STACK_ADDRESS {Abs}
+                        0x2000fff8           --   Gb  command line/config [2]
+__VECTOR_RAM {Abs}      0x1fff0000           --   Gb  command line/config [2]
+__VECTOR_TABLE {Abs}    0x00000000           --   Gb  command line/config [2]
+__aeabi_cdcmpeq         0x0000e7a5          Code  Gb  DblCmpEq.o [4]
+__aeabi_cdcmple         0x0000be65          Code  Gb  DblCmpLe.o [4]
+__aeabi_cdrcmple        0x0000be35          Code  Gb  DblCmpGe.o [4]
+__aeabi_cfcmpeq         0x0000be95          Code  Gb  FltCmpEq.o [4]
+__aeabi_cfcmple         0x0000baf9          Code  Gb  FltCmpLe.o [4]
+__aeabi_cfrcmple        0x0000bad5          Code  Gb  FltCmpGe.o [4]
+__aeabi_d2f             0x0000b68d          Code  Gb  DblToFlt.o [4]
+__aeabi_d2iz            0x0000e965          Code  Gb  DblToI32.o [4]
+__aeabi_dadd            0x0000e87d          Code  Gb  DblAdd.o [4]
+__aeabi_ddiv            0x0000bb9d          Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x0000b4c9          Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x0000e9f1          Code  Gb  DblSub.o [4]
+__aeabi_f2d             0x0000bde5          Code  Gb  FltToDbl.o [4]
+__aeabi_f2iz            0x0000b71d          Code  Gb  FltToS32.o [4]
+__aeabi_fadd            0x0000b86d          Code  Gb  FltAdd.o [4]
+__aeabi_fdiv            0x0000b8f1          Code  Gb  FltDiv.o [4]
+__aeabi_fmul            0x0000b795          Code  Gb  FltMul.o [4]
+__aeabi_fsub            0x0000b9ed          Code  Gb  FltSub.o [4]
+__aeabi_i2d             0x0000b49d          Code  Gb  I32ToDbl.o [4]
+__aeabi_i2f             0x0000b761          Code  Gb  I32ToFlt.o [4]
+__aeabi_memclr          0x00013239          Code  Gb  ABImemclr.o [5]
+__aeabi_memclr4         0x0000bb1d          Code  Gb  ABImemclr4.o [5]
+__aeabi_ui2f            0x0000b775          Code  Gb  I32ToFlt.o [4]
+__as_entries_start      0xffffffff           --   Gb  command line/config [2]
+__as_table_start        0xffffffff           --   Gb  command line/config [2]
+__cmain                 0x00013315          Code  Gb  cmain.o [5]
+__code_start__ {Abs}    0x00000410           --   Gb  command line/config [2]
+__exit                  0x00013345          Code  Gb  XXexit.o [5]
+__iar_Memset4_word      0x0000beb1          Code  Gb  ABImemset48.o [5]
+__iar_Memset8_word      0x0000beb1          Code  Gb  ABImemset48.o [5]
+__iar_Memset_word       0x00013241          Code  Gb  ABImemset.o [5]
+__iar_d2uiz             0x0000e991          Code  Gb  DblToI32.o [4]
+__iar_dadd              0x0000e891          Code  Gb  DblAdd.o [4]
+__iar_data_init3        0x000132dd    0x28  Code  Gb  data_init.o [5]
+__iar_dsub              0x0000ea05          Code  Gb  DblSub.o [4]
+__iar_dsubStart         0x0000ea17          Code  Gb  DblSub.o [4]
+__iar_fadd              0x0000b87d          Code  Gb  FltAdd.o [4]
+__iar_fsub              0x0000b9fd          Code  Gb  FltSub.o [4]
+__iar_fsubStart         0x0000ba0d          Code  Gb  FltSub.o [4]
+__iar_modf              0x0000e7d5          Code  Gb  modf.o [4]
+__iar_modfl             0x0000e7d5          Code  Gb  modf.o [4]
+__iar_program_start     0x00013351          Code  Gb  cstartup_M.o [5]
+__iar_ui2d              0x0000b4b1          Code  Gb  I32ToDbl.o [4]
+__iar_ui2f              0x0000b779          Code  Gb  I32ToFlt.o [4]
+__iar_unaligned___aeabi_memcpy
+                        0x0000bb25          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy4
+                        0x0000bb45          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy8
+                        0x0000bb45          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_zero_init3        0x0000b66b    0x22  Code  Gb  zero_init3.o [5]
+__low_level_init        0x0001332f     0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00000000   0x410  Data  Gb  vectors.o [1]
+_call_main              0x00013321          Code  Gb  cmain.o [5]
+_exit                   0x00013339          Code  Gb  cexit.o [5]
+_main                   0x0001332b          Code  Gb  cmain.o [5]
+adc_init                0x00012879   0x128  Code  Gb  MK60_adc.o [1]
+adc_once                0x000129a1    0x36  Code  Gb  MK60_adc.o [1]
+adc_stop                0x000129d7     0xc  Code  Gb  MK60_adc.o [1]
+aquire_Mline            0x00009c61    0x4a  Code  Gb  VCAN_camera.o [1]
+asc2_1608               0x1fff0a88   0x5f0  Data  Gb  lcd.o [1]
+assert_failed           0x0000de71    0x2a  Code  Gb  MK60_conf.o [1]
+beep                    0x000125c5    0x20  Code  Gb  System.o [1]
+border                  0x1fff9484   0x780  Data  Gb  VCAN_camera.o [1]
+bus_clk_khz             0x1fff857c     0x4  Data  Gb  system_MK60DZ10.o [1]
+camer                   0x1fff9468    0x10  Data  Gb  VCAN_camera.o [1]
+camer_error_calculation
+                        0x00008a11    0xe4  Code  Gb  VCAN_camera.o [1]
+circle_flag             0x1fff9c0f     0x1  Data  Gb  main.o [1]
+common_startup          0x00013195    0x48  Code  Gb  system_MK60DZ10.o [1]
+core_clk_khz            0x1fff8574     0x4  Data  Gb  system_MK60DZ10.o [1]
+core_clk_mhz            0x1fff8578     0x4  Data  Gb  system_MK60DZ10.o [1]
+count_init              0x1fff84e4    0x40  Data  Gb  MK60_dma.o [1]
+dajiao_Prospect_See     0x1fff77ac     0x1  Data  Gb  main.o [1]
+data_init               0x00009d91    0xbe  Code  Gb  VCAN_camera.o [1]
+default_isr             0x0000de9b    0x5c  Code  Gb  MK60_conf.o [1]
+direction_control       0x000127ff    0x6e  Code  Gb  SERVO_MOTOR.o [1]
+display                 0x00012ca9     0xe  Code  Gb  mm.o [1]
+dma_portx2buff_init     0x00011aa1   0x138  Code  Gb  MK60_dma.o [1]
+exit                    0x00013333     0x4  Code  Gb  exit.o [3]
+filter_Prospect_See     0x000116b9    0x76  Code  Gb  Motor.o [1]
+filter_speed_L          0x000115ad    0x86  Code  Gb  Motor.o [1]
+filter_speed_R          0x00011633    0x86  Code  Gb  Motor.o [1]
+fork_select             0x00009cad    0xe4  Code  Gb  VCAN_camera.o [1]
+ftm_mod                 0x1fff7ed4     0xc  Data  Lc  MK60_ftm.o [1]
+ftm_pwm_duty            0x0000e6bb    0xa4  Code  Gb  MK60_ftm.o [1]
+ftm_pwm_init            0x0000e5c7    0xf4  Code  Gb  MK60_ftm.o [1]
+gearshift_integral      0x00011007   0x112  Code  Gb  FuzzySet_Speed.o [1]
+gpio_ddr                0x0000dc7b    0x22  Code  Gb  MK60_gpio.o [1]
+gpio_get                0x0000dd07    0x2e  Code  Gb  MK60_gpio.o [1]
+gpio_init               0x0000dc39    0x42  Code  Gb  MK60_gpio.o [1]
+gpio_set                0x0000dc9d    0x3e  Code  Gb  MK60_gpio.o [1]
+gpio_turn               0x0000dcdb    0x2c  Code  Gb  MK60_gpio.o [1]
+img_buffer              0x1fff108c   0x960  Data  Gb  main.o [1]
+img_buffer2             0x1fff19ec   0x960  Data  Gb  main.o [1]
+img_extract             0x000081c1    0x82  Code  Gb  VCAN_camera.o [1]
+img_handle              0x1fff234c  0x4b00  Data  Gb  main.o [1]
+img_send_flag           0x1fff107f     0x1  Data  Gb  main.o [1]
+img_sendmatlab_flag     0x1fff9c0c     0x1  Data  Gb  main.o [1]
+img_switch_flag         0x1fff107c     0x1  Data  Gb  main.o [1]
+led_init                0x0000df61    0x3c  Code  Gb  VCAN_LED.o [1]
+led_turn                0x0000df9d    0x28  Code  Gb  VCAN_LED.o [1]
+left                    0x1fff8d00   0x3b4  Data  Gb  VCAN_camera.o [1]
+left_track_tail         0x1fff947c     0x4  Data  Gb  VCAN_camera.o [1]
+main                    0x00012b6d    0xd6  Code  Gb  main.o [1]
+matchline               0x00009b31   0x130  Code  Gb  VCAN_camera.o [1]
+mcg_cfg                 0x1fff7ef4    0x44  Data  Gb  MK60_mcg.o [1]
+mcg_div                 0x1fff7f38     0x4  Data  Gb  MK60_mcg.o [1]
+mcg_div_count           0x00012f79   0x148  Code  Gb  MK60_mcg.o [1]
+modf                    0x0000e7c5          Code  Gb  modf.o [4]
+modfl                   0x0000e7c5          Code  Gb  modf.o [4]
+motor                   0x1fff8524    0x38  Data  Gb  Motor.o [1]
+myMotor_Setspeed        0x00011483    0x5e  Code  Gb  Motor.o [1]
+out_char                0x0000e9b1     0x8  Code  Gb  io.o [1]
+ov7725_eagle_cfgnum     0x1fff81b1     0x1  Data  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_dma        0x000122d3    0x14  Code  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_get_img    0x000122e7    0x2e  Code  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_img_buff   0x1fff81b4     0x4  Data  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_img_flag   0x1fff81b0     0x1  Data  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_init       0x000121a1    0xf0  Code  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_reg        0x1fff814c    0x64  Data  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_vsync      0x00012291    0x42  Code  Gb  VCAN_OV7725_Eagle.o [1]
+pit_init                0x00012a25    0x46  Code  Gb  MK60_PIT.o [1]
+pll_init                0x000130c1    0x82  Code  Gb  MK60_mcg.o [1]
+port_init               0x0000ddf5    0x32  Code  Gb  MK60_port.o [1]
+port_init_NoALT         0x0000de27    0x40  Code  Gb  MK60_port.o [1]
+printf                  0x0000e189   0x38a  Code  Gb  printf.o [1]
+printk_mkfloatnumstr    0x0000e03d   0x146  Code  Lc  printf.o [1]
+printk_mknumstr         0x0000dfcd    0x6e  Code  Lc  printf.o [1]
+right                   0x1fff90b4   0x3b4  Data  Gb  VCAN_camera.o [1]
+right_track_tail        0x1fff9480     0x4  Data  Gb  VCAN_camera.o [1]
+rule                    0x1fff0724   0x2b0  Data  Gb  FuzzySet_Speed.o [1]
+rule_Casu               0x1fff043c    0xb8  Data  Gb  FuzzySet_Casu.o [1]
+rule_steer_D            0x1fff05ac    0xb8  Data  Gb  FuzzySet_Casu.o [1]
+rule_steer_P            0x1fff04f4    0xb8  Data  Gb  FuzzySet_Casu.o [1]
+send                    0x00012cb7    0x5a  Code  Gb  mm.o [1]
+send_osc_flag           0x1fff9c0d     0x1  Data  Gb  main.o [1]
+servo_stop_duty         0x1fff9c06     0x2  Data  Gb  main.o [1]
+servos                  0x1fff855c    0x18  Data  Gb  SERVO_MOTOR.o [1]
+set_sys_dividers        0x1fff81b9    0x3c  Code  Gb  MK60_mcg.o [1]
+set_vector_handler      0x00012793    0x20  Code  Gb  misc.o [1]
+speed_control           0x0001113d   0x346  Code  Gb  Motor.o [1]
+srcimg                  0x1fff6e4c   0x960  Data  Gb  main.o [1]
+srcnuma                 0x1fff84dc     0x4  Data  Gb  main.o [1]
+srcnumb                 0x1fff84e0     0x4  Data  Gb  main.o [1]
+start                   0x0001314d    0x48  Code  Gb  system_MK60DZ10.o [1]
+strlen                  0x0000e9b9          Code  Gb  strlen.o [5]
+systick_delay_ms        0x0000dd71    0x3e  Code  Gb  MK60_SysTick.o [1]
+uart_init               0x0000eb71   0x15e  Code  Gb  MK60_uart.o [1]
+uart_putbuff            0x0000ece1    0x24  Code  Gb  MK60_uart.o [1]
+uart_putchar            0x0000eccf    0x10  Code  Gb  MK60_uart.o [1]
+val_area                0x1fff8580   0x780  Data  Gb  VCAN_camera.o [1]
+var                     0x1fff84c4    0x18  Data  Gb  main.o [1]
+vcan_sendimg            0x00012d2d    0x40  Code  Gb  VCAN_computer.o [1]
+vcan_sendware           0x00012d6d    0x40  Code  Gb  VCAN_computer.o [1]
+vector_str              0x1fff77c0   0x708  Data  Gb  MK60_conf.o [1]
+wdog_disable            0x0001320d    0x26  Code  Gb  MK60_wdog.o [1]
+write_vtor              0x00012771    0x22  Code  Gb  misc.o [1]
+
+
+[1] = C:\Users\DELL\Desktop\Never Crazy Car 8.2\Prj\IAR\DZ10_Debug\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tl.a
+[5] = rt7M_tl.a
+
+  45 398 bytes of readonly  code memory
+      60 bytes of readwrite code memory
+  33 284 bytes of readonly  data memory
+  38 853 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
